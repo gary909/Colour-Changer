@@ -1,9 +1,12 @@
+let fruits = ['Apple', 'Banana', 'Peach', 'Kiwi', 'Lemon']
+
 function getRandomInt(max) {
-    return Math.floor(Math.random() * max);
+    var randNum = Math.floor(Math.random() * max);
+    return fruits[randNum];
 }
 
-function myFunction(){
-    alert("hey you clicked me!");
-}
+// function myFunction(){
+//     alert("hey you clicked me!");
+// }
 
-console.log(getRandomInt(100));
+console.log(getRandomInt(5));
